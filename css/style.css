@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+html {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+}
+a {
+	color: rgb(100,100,100);
+	text-decoration: none;
+	font-size: 21px;
+	-webkit-transition: all 2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+a:hover {
+	color: red;
+	text-shadow: 2px 2px 3px #6B6B6B;
+}
+a:visited {
+	color: black;
+}
+ul li {
+	list-style: none;
+	float: left;
+	margin: 10px;
+}
